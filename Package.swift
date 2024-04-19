@@ -1,9 +1,10 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.10
 import PackageDescription
 
 
-let swiftSettings: [SwiftSetting] = []
-//let swiftSettings: [SwiftSetting] = [.unsafeFlags(["-Xfrontend", "-warn-concurrency", "-Xfrontend", "-enable-actor-data-race-checks"])]
+let swiftSettings: [SwiftSetting] = [
+	.enableExperimentalFeature("StrictConcurrency")
+]
 
 let package = Package(
 	name: "HTTPCoders",

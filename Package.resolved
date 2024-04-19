@@ -1,25 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "stream-reader",
-        "repositoryURL": "https://github.com/Frizlab/stream-reader.git",
-        "state": {
-          "branch": null,
-          "revision": "bae1bfb2fc2cdc6f89c3f6e89ef92d22039ef7b5",
-          "version": "3.5.0"
-        }
-      },
-      {
-        "package": "swift-collections",
-        "repositoryURL": "https://github.com/apple/swift-collections.git",
-        "state": {
-          "branch": null,
-          "revision": "f504716c27d2e5d4144fa4794b12129301d17729",
-          "version": "1.0.3"
-        }
+  "originHash" : "c31a263a4290c0c36d7c80d64d3d87f42a31cced5860a7d59965d76fbd5d1a40",
+  "pins" : [
+    {
+      "identity" : "stream-reader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Frizlab/stream-reader.git",
+      "state" : {
+        "revision" : "13c99289668e1dedfcf28c05867cb8fe0860b133",
+        "version" : "3.5.2"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
 }
